@@ -1,0 +1,188 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Black";
+}
+
+#title {
+  background-color: #d92027;
+  color: white;
+  text-align: center;
+
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading Section */
+
+.big-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+
+
+/*navigation bar*/
+
+.navbar {
+  padding: 0 0 4.5rem ;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-right: 70%;
+  margin-top: 3%;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+
+/*Download-Buttons*/
+
+.download-button {
+  margin: 5% 3% 5% 3%;
+}
+
+/* Title Section */
+
+
+.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 35%;
+  height:670px;
+}
+
+#title.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.col-lg-6 {
+margin-top: 1.5%;
+}
+
+/* Feature Sectoin*/
+
+#features {
+
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  }
+
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #d92027;
+}
+
+/*Testimonial Section*/
+
+#testimonials {
+  background-color: #d92027;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+width: 15%;
+border-radius: 100%;
+margin: 5%;
+}
+
+#press {
+  background-color:#d92027;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing{
+  padding:100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5
+
+}
+
+.pricing-coloumn {
+  padding: 3% 2%;
+}
+
+/* Media Query */
+
+@media (max-width:1000px) {
+
+.title {
+  text-align: left;
+}
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+}
+
+}
+
+/* Call to action */
+#cta {
+  background-color: #d92027;
+  color: #fff;
+}
+
+
+/* Footer */
+
+#footer {
+  margin: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
